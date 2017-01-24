@@ -1,0 +1,12 @@
+{application, emqauthcouchbase,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { emqauthcouchbase_app, []}},
+  {env, []}
+ ]}.
